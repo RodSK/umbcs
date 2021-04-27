@@ -12,13 +12,7 @@
     margin: 0;
 }
 
-.header-top a {
-  display: block;
-  float: right;
-  text-decoration: none;
-}
-
-.header-top a:first-child {
+.header-top p {
     color: white;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -29,7 +23,19 @@
     background-repeat: no-repeat;
     background-size: auto 80%;
     display: inline-block;
-    float: left;
+}
+
+.header-top a {
+    display: block;
+    float: right;
+    text-decoration: none;
+}
+
+.header-top a:first-child {
+  float: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
 }
 
 .header-bottom {
