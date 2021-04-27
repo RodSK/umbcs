@@ -1,0 +1,77 @@
+- title: About
+  link: /about/
+  submenu:
+    - title: Contact Us
+      link: /contact-us
+    - title: Department
+      link: /department
+    - title: Facilities
+      link: /facilities
+    - title: Getting Here
+      link: /getting-here
+
+- title: Academics
+  link: /academics/
+  submenu:
+    - title: Admissions
+      link: /admissions
+    - title: Certificate Programs
+      link: /certificate-programs
+    - title: Course Schedule
+      link: /course-schedule
+    - itle: Courses
+      link: /courses
+    - title: CS Minor
+      link: /cs-minor
+    - title: Graduate Programs
+      link: /graduate-programs
+    - title: Honors Programs
+      link: /honors-programs
+    - title: Student Funding
+      link: /student-funding
+    - title: Undergraduate Programs
+      link: /undergraduate-programs
+
+- title: News
+  link: /news-and-events/
+  submenu:
+    - title: Announcements
+      link: /announcements
+    - title: Colloquia
+      link: /colloquia
+    - title: Events Calendar
+      link: /events-calendar
+    - title: Faculty Search
+      link: /faculty-search
+    - title: Jobs and Interships
+      link: /jobs-and-internships
+    - title: Staff Search
+      link: /staff-search
+
+- title: People
+  link: /people/
+  submenu:
+    - title: Faculty
+      link: /faculty
+    - title: Staff
+      link: /staff
+
+- title: Research
+  link: /research/
+  submenu:
+    - title: Funding
+      link: /funding
+    - title: Groups
+      link: /groups
+
+- title: Resources
+  link: /resources/
+  submenu:
+    - title: CS Department IT Policies and Procedures
+      link: /cs-department-it-policies-and-procedures
+    - title: Dreamspark/Microsoft Imagine
+      link: /reamspark-/-microsfot-imagine
+    - title: Office Hours
+      link: /office-hours
+    - title: VMware
+      link: /vmware

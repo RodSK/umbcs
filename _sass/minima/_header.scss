@@ -1,0 +1,193 @@
+.header-top {
+    width: 100%;
+    height: auto;
+    background-color: #005A8C;
+}
+
+.header-top p, .header-top a {
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    margin: 0;
+}
+
+.header-top a {
+  display: block;
+  float: right;
+  text-decoration: none;
+}
+
+.header-top a:first-child {
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    margin: 0;
+    background-image: url('../images/umass_logo.png');
+    background-position: center left; 
+    background-repeat: no-repeat;
+    background-size: auto 80%;
+    display: inline-block;
+    float: left;
+}
+
+.header-bottom {
+    border-bottom: 1px solid rgba($color: #005A8C, $alpha: 0.2);
+}
+
+.header-bottom p {
+    margin: 0;
+    display: inline-block;
+}
+
+.header-bottom p:first-child {
+    color: grey;
+}
+
+.header-bottom p:nth-child(2) {
+    font-weight: 700;
+    font-size: 150%;
+    letter-spacing: 1px;
+    margin-left: 5px;
+}
+
+/***** Menu Navigation ****************/
+
+.header-menu {
+    border-bottom: 1px solid rgba($color: #005A8C, $alpha: 0.2); 
+}
+
+  nav {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+  }
+   
+  nav:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+   
+  nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    position: relative;
+  }
+   
+  nav ul li {
+    margin: 0px;
+    display: inline-block;
+    //float: left;
+    background-color: white;
+    padding-left: 10px;
+  }
+  nav .menu > li:first-child {
+      padding-left: 0;
+  }
+   
+  nav a {
+    display: block;
+    color: #005A8C;
+    font-size: 20px;
+    text-decoration: none;
+    
+  }
+   
+  nav a:hover { 
+    background-color: grey; 
+    text-decoration: none;
+  }
+   
+  nav ul ul {
+    display: none;
+    position: absolute;
+    top: 25;
+  }
+   
+  nav ul li:hover > ul { display: inherit; }
+   
+  nav ul ul li {
+    width: 170px;
+    float: none;
+    display: list-item;
+    position: relative;
+    padding-left: 0;
+  }
+   
+  .toggle, [id^=drop] {
+   display: none;
+  }
+//   li > a:only-child:after { content: ''; }
+  
+  /*Responsive Styles*/
+  @media all and (max-width : 768px) {
+   
+  nav { margin: 0; }
+  .toggle + a, .menu { 
+      display: none; 
+  }
+  .toggle, .header-menu .menu > li:first-child a{
+    display: block;
+    background-color: #254441;
+    padding: 0 20px;
+    color: #FFF;
+    font-size: 20px;
+    line-height: 60px;
+    text-decoration: none;
+    border: none;
+  }
+   
+  .toggle:hover, .header-menu .menu > li:first-child a:hover { background-color: #000000; }
+  
+  [id^=drop]:checked + ul { display: block; }
+   
+  nav ul li {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+  }
+  
+  nav ul ul .toggle,
+  
+   nav ul ul a { padding: 0 40px; }
+   
+  nav ul ul ul a { padding: 0 80px; }
+  
+  nav a:hover,
+  
+   nav ul ul ul a { background-color: #000000; }
+  
+  nav ul li ul li .toggle,
+  
+   nav ul ul a { background-color: #212121; }
+  
+  nav ul ul {
+    float: none;
+    position: static;
+    color: #ffffff;
+  }
+  
+  nav ul ul li:hover > ul,
+  
+  nav ul li:hover > ul { display: none; }
+  
+   nav ul ul li {
+    display: block;
+    width: 100%;
+  }
+  
+  nav ul ul ul li { 
+     position: static;
+  }
+  }
+   
+  @media all and (max-width : 330px) {
+  nav ul li {
+    display: block;
+    width: 94%;
+  }
+  }
+  
