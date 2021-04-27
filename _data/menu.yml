@@ -2,76 +2,76 @@
   link: /about/
   submenu:
     - title: Contact Us
-      link: /contact-us/
+      link: /contact-us
     - title: Department
-      link: /department/
+      link: /department
     - title: Facilities
-      link: /facilities/
+      link: /facilities
     - title: Getting Here
-      link: /getting-here/
+      link: /getting-here
 
 - title: Academics
   link: /academics/
   submenu:
     - title: Admissions
-      link: /admissions/
+      link: /admissions
     - title: Certificate Programs
-      link: /certificate-programs/
+      link: /certificate-programs
     - title: Course Schedule
-      link: /course-schedule/
+      link: /course-schedule
     - itle: Courses
-      link: /courses/
+      link: /courses
     - title: CS Minor
-      link: /cs-minor/
+      link: /cs-minor
     - title: Graduate Programs
-      link: /graduate-programs/
+      link: /graduate-programs
     - title: Honors Programs
-      link: /honors-programs/
+      link: /honors-programs
     - title: Student Funding
-      link: /student-funding/
+      link: /student-funding
     - title: Undergraduate Programs
-      link: /undergraduate-programs/
+      link: /undergraduate-programs
 
 - title: News
   link: /news-and-events/
   submenu:
     - title: Announcements
-      link: /announcements/
+      link: /announcements
     - title: Colloquia
-      link: /colloquia/
+      link: /colloquia
     - title: Events Calendar
-      link: /events-calendar/
+      link: /events-calendar
     - title: Faculty Search
-      link: /faculty-search/
+      link: /faculty-search
     - title: Jobs and Interships
-      link: /jobs-and-internships/
+      link: /jobs-and-internships
     - title: Staff Search
-      link: /staff-search/
+      link: /staff-search
 
 - title: People
   link: /people/
   submenu:
     - title: Faculty
-      link: /faculty/
+      link: /faculty
     - title: Staff
-      link: /staff/
+      link: /staff
 
 - title: Research
   link: /research/
   submenu:
     - title: Funding
-      link: /funding/
+      link: /funding
     - title: Groups
-      link: /groups/
+      link: /groups
 
 - title: Resources
   link: /resources/
   submenu:
-    - title: CS Department IT Policies and Procedures"
-      link: /cs-department-it-policies-and-procedures/
+    - title: CS Department IT Policies and Procedures
+      link: /cs-department-it-policies-and-procedures
     - title: Dreamspark/Microsoft Imagine
-      link: /reamspark-/-microsfot-imagine/
+      link: /reamspark-/-microsfot-imagine
     - title: Office Hours
-      link: /office-hours/
+      link: /office-hours
     - title: VMware
-      link: /vmware/
+      link: /vmware
