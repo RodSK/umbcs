@@ -1,0 +1,26 @@
+.wrap-table td {
+  border: none;
+  background-color: white;
+}
+
+.wrap-table table {
+  border: none;
+  border-collapse: separate;
+  border-spacing: 5px;
+}
+
+.wrap-table th {
+  border: none;
+  border-top: 3px solid #005a8c;
+}
+
+.table-title {
+  color: #005a8c;
+  text-align: left;
+}
+
+.wrap-table table h3 a {
+  font-size: 18px;
+  color: rgb(17, 17, 17);
+  font-weight: normal;
+}

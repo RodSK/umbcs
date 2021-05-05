@@ -22,6 +22,7 @@ title: "Department of Computer Science"
 email: "csinfo@cs.umb.edu"
 #Removed Description from footer
 description: >- # this means to ignore newlines until "baseurl:"
+  This is some information
 
 # baseurl to courses [path to courses] [example: /academics/courses/CS105]
 pathToCourses: "/umbcs/academics/courses"
@@ -31,11 +32,9 @@ url: "https://rodsk.github.io" # the base hostname & protocol for your site, e.g
 twitter_username: jekyllrb
 github_username: jekyll
 
-
 facebook_url: https://www.facebook.com/umassboston
 twitter_url: https://twitter.com/umassboston
 linkedin_url: https://www.linkedin.com/school/umass-boston?pathWildcard=166578
-
 
 # Build settings
 
