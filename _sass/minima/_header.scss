@@ -93,12 +93,20 @@
     color: #005A8C;
     font-size: 20px;
     text-decoration: none;
-    
+    padding-left: 0px;
+    padding-right: 20px;
+    -webkit-transition: padding 1s;
+    -moz-transition: padding 1s;
+    -o-transition: padding 1s;
+    transition: padding 1s;
   }
    
   nav a:hover { 
-    background-color: grey; 
+    background-color: rgba($color: #005A8C, $alpha: 1);
+    color: white;
     text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
   }
    
   nav ul ul {
@@ -111,11 +119,16 @@
   nav ul li:hover > ul { display: inherit; }
    
   nav ul ul li {
-    width: 170px;
+    width: max-content;
     float: none;
     display: list-item;
     position: relative;
-    padding-left: 0;
+    padding-left: 0px;
+    border-bottom: 1px solid rgba($color: #005A8C, $alpha: 0.2);
+  }
+
+  nav ul ul li a {
+    padding-left: 10px;
   }
    
   .toggle, [id^=drop] {
@@ -130,9 +143,9 @@
   .toggle + a, .menu { 
       display: none; 
   }
-  .toggle, .header-menu .menu > li:first-child a{
+  .toggle, .header-menu .menu > li:first-child a {
     display: block;
-    background-color: #254441;
+    background-color: rgba($color: #005A8C, $alpha: 1);
     padding: 0 20px;
     color: #FFF;
     font-size: 20px;
@@ -140,10 +153,26 @@
     text-decoration: none;
     border: none;
   }
+
+  .toggle::after {
+    content: "+";
+    padding-left: 10px;
+    color: rgba($color: white, $alpha: 0.5);
+  }
    
-  .toggle:hover, .header-menu .menu > li:first-child a:hover { background-color: #000000; }
+  .toggle:hover, .header-menu .menu > li:first-child a:hover { 
+    background-color: rgba($color: #005A8C, $alpha: 0.7); 
+  }
   
-  [id^=drop]:checked + ul { display: block; }
+  [id^=drop]:checked + label + a + ul, #drop:checked + label + ul { display: block; }
+
+  [id^=drop]:checked + label {
+    background-color: rgba($color: #005A8C, $alpha: 0.7); 
+  }
+
+  [id^=drop]:checked + label::after {
+    content: "-"; 
+  }
    
   nav ul li {
     display: block;
@@ -157,13 +186,12 @@
    
   nav ul ul ul a { padding: 0 80px; }
   
-  nav a:hover,
+  nav a:hover, nav ul ul ul a { 
+    background-color: white; 
+    color: black;
+  }
   
-   nav ul ul ul a { background-color: #000000; }
-  
-  nav ul li ul li .toggle,
-  
-   nav ul ul a { background-color: #212121; }
+  nav ul li ul li .toggle, nav ul ul a { background-color: white; }
   
   nav ul ul {
     float: none;
