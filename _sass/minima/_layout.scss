@@ -182,6 +182,10 @@
   flex: 1;
 }
 
+.contentWrap, .sideBar {
+  display: inline-block;
+}
+
 .page-heading {
   @include relative-font-size(2);
 }
