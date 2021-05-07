@@ -22,7 +22,8 @@ title: "Department of Computer Science"
 email: "csinfo@cs.umb.edu"
 #Removed Description from footer
 description: >- # this means to ignore newlines until "baseurl:"
-  This is some information
+  UMass Boston
+  Department of Computer Science
 
 # baseurl to courses [path to courses] [example: /academics/courses/CS105]
 pathToCourses: "/umbcs/academics/courses"
