@@ -7,8 +7,10 @@ layout: default
     <h1 class="post-title">{{ page.title | escape }}</h1>
   </header>
 
+  {% include sidebar.html %}
+  
   <div class="post-content">
-    <!-- <div class="sideBar">Tets Test Test Tets</div> -->
+    <div class="sideBar">Tets Test Test Tets</div>
     <div class="contentWrap">{{ content }}</div>
   </div>
 </article>
