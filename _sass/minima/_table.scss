@@ -46,6 +46,17 @@
   font-size: 20px;
 }
 
+.slideshow {
+  width: 100%;
+  border: none;
+}
+
+.slideshow td {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
 @media all and (max-width: 768px) {
 
   .wrap-table {

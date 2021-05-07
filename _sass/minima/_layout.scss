@@ -213,6 +213,12 @@
   @include relative-font-size(1.5);
 }
 
+.sidebar {
+  display: block;
+  position: absolute;
+  margin-left: -100px;
+}
+
 /**
  * Posts
  */
