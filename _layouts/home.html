@@ -19,62 +19,7 @@ layout: default
   </table>
 
   <div class="wrap-table">
-        <div>
-          <p>Research</p>
-          <ul>
-            {% for post in site.categories.research %} {% if post.url %}
-            <li>
-              {%- assign date_format = site.minima.date_format | default: "%b
-              %-d, %Y" -%}
-              <span class="post-meta">{{ post.date | date: date_format }}</span>
-              <h3>
-                <a class="post-link" href="{{ post.url | relative_url }}">
-                  {{ post.title | escape }}
-                </a>
-              </h3>
-              {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%}
-            </li>
-            {% endif %} {% endfor %}
-          </ul>
-        </div>
-
-        <div>
-          <p>News</p>
-          <ul>
-            {% for post in site.categories.events %} {% if post.url %}
-            <li>
-              {%- assign date_format = site.minima.date_format | default: "%b
-              %-d, %Y" -%}
-              <span class="post-meta">{{ post.date | date: date_format }}</span>
-              <h3>
-                <a class="post-link" href="{{ post.url | relative_url }}">
-                  {{ post.title | escape }}
-                </a>
-              </h3>
-              {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%}
-            </li>
-            {% endif %} {% endfor %}
-          </ul>
-        </div>
-
-        <div>
-          <p>Events</p>
-          <ul>
-            {% for post in site.categories.events %} {% if post.url %}
-            <li>
-              {%- assign date_format = site.minima.date_format | default: "%b
-              %-d, %Y" -%}
-              <span class="post-meta">{{ post.date | date: date_format }}</span>
-              <h3>
-                <a class="post-link" href="{{ post.url | relative_url }}">
-                  {{ post.title | escape }}
-                </a>
-              </h3>
-              {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%}
-            </li>
-            {% endif %} {% endfor %}
-          </ul>
-        </div>
+    {% include table.html %}
   </div>
 </div>
 

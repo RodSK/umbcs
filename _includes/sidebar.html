@@ -1,4 +1,16 @@
 <div class="sidebar">
-    <p>Test</p>
-    <p>Test</p>
+    <div class="wrap-table">
+        {% include table.html %}
+    </div>
+    <script>
+        window.onload = window.onresize = function() {
+            var x = document.getElementsByClassName("sidebar")[0];
+            var w = x.parentElement;
+            var style = w.currentStyle || window.getComputedStyle(w);
+            var ml = style.marginLeft;
+            var num = parseInt(ml.substring(0, (ml.length - 2)));
+            x.style.width = num + "px";
+            x.style.marginLeft = "-" + (num + 5) + "px";
+        };
+    </script>
 </div>

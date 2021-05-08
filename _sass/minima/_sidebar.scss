@@ -1,0 +1,29 @@
+.sidebar {
+    display: inline-block;
+    width: 200px;
+    margin-left: -205px;
+    vertical-align: top;
+  }
+
+  .sidebar .wrap-table {
+      display: block;
+      margin-right: 20px;
+      background-color: white;
+  }
+  
+  .sidebar .wrap-table div {
+    display: block;
+    margin-right: 0;
+    flex: none;
+    text-align: none;
+  }
+
+  
+  @media all and (max-width: 768px) {
+  
+    .sidebar {
+        display: none;
+    }
+  
+  }
+  

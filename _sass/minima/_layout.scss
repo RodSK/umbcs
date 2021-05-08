@@ -190,6 +190,11 @@
   @include relative-font-size(2);
 }
 
+.post {
+  display: inline-block;
+  vertical-align:top;
+}
+
 .post-list-heading {
   @include relative-font-size(1.75);
 }
@@ -211,12 +216,6 @@
 .post-link {
   display: block;
   @include relative-font-size(1.5);
-}
-
-.sidebar {
-  display: block;
-  position: absolute;
-  margin-left: -100px;
 }
 
 /**
