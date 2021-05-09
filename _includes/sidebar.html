@@ -4,7 +4,7 @@
     </div>
     <script>
         window.onload = window.onresize = function() {
-            var s = screen.width;
+            var s = getWidth("page-content");
             var wrapperWidth = getWidth("wrapper");
             setWidthMargin("sidebar", ((s - wrapperWidth) / 2));
         };
