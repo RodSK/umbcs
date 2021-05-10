@@ -1,26 +1,36 @@
 ---
 layout: default
 ---
+<div class="home-back">
 
-<div class="home">
-  {%- if page.title -%}
-  <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
+  <div class="wrapper">
+    
+      <p>Announcements</p>
 
-  <table class="slideshow">
-    <colgroup>
-      <col span="1" style="width: 70%" />
-      <col span="1" style="width: 30%" />
-    </colgroup>
-    <tr>
-      <td>{% include carousel.html height="50" unit="%" duration="7" %}</td>
-      
-    </tr>
-  </table>
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
+      <p>when an unknown printer took a galley of type and scrambled it to make a type
+         specimen book. It has survived not only five centuries, but also the leap 
+         into electronic typesetting, remaining essentially unchanged. It was popularised 
+         in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
+         and more recently with desktop publishing software like Aldus PageMaker including 
+         versions of Lorem Ipsum.</p>
+    
+  </div>
 
-  <div class="wrap-table">
-    {% include table.html %}
+  <div class="home-top">
+    <div class="wrapper">
+      <div class="home">
+        {%- if page.title -%}
+        <h1 class="page-heading">{{ page.title }}</h1>
+        {%- endif -%}
+
+        <div class="wrap-table">
+          {% include table.html %}
+        </div>
+      </div>
+
+      {% include follow-buttons.html %}
+    </div>
   </div>
 </div>
-
-{% include follow-buttons.html %}

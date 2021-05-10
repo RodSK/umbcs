@@ -1,0 +1,41 @@
+.home-back, .home-top{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.home-back {
+    background-image: url("../images/tech.jpg");
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.home-top {
+    background-color: $background-color;
+}
+
+.home-back > .wrapper:first-child {
+    display: block;
+    padding: 0;
+    background-color: rgba($color:white, $alpha: .9);
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.home-back > .wrapper:first-child p:first-child {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #005a8c;
+    border-top: 3px solid #005a8c;
+    background-color: #F0F0F0;
+}

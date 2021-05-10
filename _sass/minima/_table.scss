@@ -1,5 +1,7 @@
 .wrap-table {
   display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .wrap-table div {
@@ -55,6 +57,23 @@
   margin: 0;
   padding: 0;
   border: none;
+}
+
+.wrap-table h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.wrap-table .post-meta {
+  display: block;
+  width: max-content;
+  border: 1px solid rgba($color: #005a8c, $alpha: .2);
+  padding-left: 10px;
+  padding-right: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  color: #005a8c;
+  margin-top: 20px;
 }
 
 @media all and (max-width: 768px) {
