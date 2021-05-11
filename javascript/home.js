@@ -13,6 +13,8 @@ window.onload = window.onresize = function() {
   slideBoxWidth = parseInt(st.width.substring(0, (st.width.length - 2)))
   slideFrame[0].style.width = slideBoxWidth + "px";
   changeBack();
+
+  loopSlide();
 }
 
 function next(i){
@@ -37,4 +39,20 @@ function changeBack(){
   var bg2 = bg.substring(bg.lastIndexOf("/"));
   var url = bg2.substring(0, bg2.length - 2);
   slideBackGround.style.backgroundImage = 'url("slideshow/' + url + '")';
+}
+
+function loopSlide(){
+  var i;
+  setInterval(
+    () =>
+    {
+      if (count == 0){
+        i = 1;
+      }
+      if (count == slideFrame.length - 1){
+        i = 0;
+      }
+      next(i);
+    }, 15000
+  );
 }
