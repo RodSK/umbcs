@@ -3,19 +3,24 @@ layout: default
 ---
 <div class="home-back">
 
-  <div class="wrapper">
-    
-      <p>Announcements</p>
+  <div class="home-back-slide">
+    <div class="home-back-slide-cover">
+      <div class="wrapper">
 
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
-      <p>when an unknown printer took a galley of type and scrambled it to make a type
-         specimen book. It has survived not only five centuries, but also the leap 
-         into electronic typesetting, remaining essentially unchanged. It was popularised 
-         in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-         and more recently with desktop publishing software like Aldus PageMaker including 
-         versions of Lorem Ipsum.</p>
-    
+        <div class="slide-box">
+          <div class="slide-frames">
+            {% for pg in site.pages %}
+              {% if pg.group == 'slideshow' %}
+            <div class="slide-frame" style="background-image: url('slideshow/{{ pg.img }}')"><p>{{ pg.title }}</p></div>
+              {% endif %}
+            {% endfor %}
+          </div>
+          <p class="slide-button" onclick="next(0)">left</p>
+          <p class="slide-button" onclick="next(1)">right</p>
+        </div>
+
+      </div>
+    </div>
   </div>
 
   <div class="home-top">
@@ -34,3 +39,5 @@ layout: default
     </div>
   </div>
 </div>
+
+<script src="javascript/home.js"></script>
