@@ -3,6 +3,9 @@ var slideBackGround;
 var slideFrames;
 var slideFrame;
 var count = 0;
+var slideTimer;
+var dr;
+var timerSeconds = 15000;
 
 window.onload = window.onresize = function() {
   var slideBox = document.getElementsByClassName("slide-box")[0];
@@ -14,10 +17,10 @@ window.onload = window.onresize = function() {
   slideFrame[0].style.width = slideBoxWidth + "px";
   changeBack();
 
-  loopSlide();
+  slideTimer = setInterval(timer, timerSeconds);
 }
 
-function next(i){
+function next(i, resetTimer){
   if(i == 1){
     if(count < slideFrame.length - 1 && count >= 0){
       count++;
@@ -31,6 +34,10 @@ function next(i){
       changeBack();
     }
   }
+  if(resetTimer){
+    clearInterval(slideTimer);
+    slideTimer = setInterval(timer, timerSeconds);
+  }
 }
 
 function changeBack(){
@@ -41,18 +48,12 @@ function changeBack(){
   slideBackGround.style.backgroundImage = 'url("slideshow/' + url + '")';
 }
 
-function loopSlide(){
-  var i;
-  setInterval(
-    () =>
-    {
-      if (count == 0){
-        i = 1;
-      }
-      if (count == slideFrame.length - 1){
-        i = 0;
-      }
-      next(i);
-    }, 15000
-  );
+function timer(){
+  if (count == 0){
+    dr = 1;
+  }
+  if (count == slideFrame.length - 1){
+    dr = 0;
+  }
+  next(dr, false);
 }

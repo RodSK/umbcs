@@ -34,15 +34,16 @@
     background-size: 100% auto;
 }
 
-.slide-box p {
+.slide-box p, .slide-frame a {
     display: block;
     position: absolute;
     margin: 0;
     height: 50px;
     line-height: 50px;
+    cursor: pointer;
 }
 
-.slide-frame p {
+.slide-frame a {
     bottom: 0;
     left: 0;
     width: 100%;
@@ -50,6 +51,7 @@
     color: white;
     font-size: 20px;
     padding-left: 20px;
+    text-decoration: none;
 }
 
 .slide-button {
@@ -63,4 +65,9 @@
 
 .slide-button:nth-child(2) {
     right: 10%;
+}
+
+.slide-button:hover {
+    background-color: lighten($color: #005a8c, $amount: 60%);
+    color: #005a8c;
 }
