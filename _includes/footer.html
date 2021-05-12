@@ -1,116 +1,13 @@
-<footer class="site-footer h-card">
-  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+<footer class="site-footer">
 
-  <div class="footer-wrapper"> 
-
-    <div class="wrap-footer">
-    <!-- Changes begins here -->
-    <!--
-    <div class="about"> 
-      <ul>
-      <h1> About</h1>
-      <p><a href="{{site.baseurl}}/department"> Department</a></p>
-      <p><a href="{{site.baseurl}}/facilities"> Facilities</a></p>
-      <p><a href="{{site.baseurl}}/contact-us"> Contact Us</a></p>
-      <p><a href="{{site.baseurl}}/getting-here"> Getting Here</a></p>
-    </ul>
-    </div>
-    <div class="Acedemics">
-      <ul>
-        <h1> Acedemics</h1>
-        <p><a href="{{site.baseurl}}/admissions"> Admissions</a></p>
-        <p><a href="{{site.baseurl}}/student-funding"> Student Funding</a></p>
-        <p><a href="{{site.baseurl}}/undergraduate-programs"> Undergraduate Programs</a></p>
-        <p><a href="{{site.baseurl}}/cs-minor"> CS Minor</a></p>
-        <p><a href="{{site.baseurl}}/graduate-programs"> Graduate Programs</a></p>
-        <p><a href="{{site.baseurl}}/honors-programs"> Honors Programs</a></p>
-        <p><a href="{{site.baseurl}}/certificate-programs"> Certificate Programs</a></p>
-        <p><a href="{{site.baseurl}}/courses"> Courses</a></p>
-        <p><a href="{{site.baseurl}}/course-schedule"> Course Schedule</a></p>
-
-      </ul>
-    </div>
-
-    <div class="People">
-      <ul>
-        <h1> People</h1>
-        <p><a href="{{site.baseurl}}/faculty"> Faculty</a></p>
-        <p><a href="{{site.baseurl}}/staff"> Staff</a></p>
-      
-      </ul>
-    </div>
-
-
-    <div class="Research">
-      <ul>
-        <h1> Research</h1>
-        <p><a href="{{site.baseurl}}/groups"> Groups</a></p>
-        <p><a href="{{site.baseurl}}/funding"> Funding</a></p>
-     
-
-      </ul>
-    </div>
-
-    <div class="News and Events">
-      <ul>
-        <h1> News and Events</h1>
-        <p><a href="{{site.baseurl}}/events-calendar"> Events Calendar</a></p>
-        <p><a href="{{site.baseurl}}/colloquia"> Colloquia</a></p>
-        <p><a href="{{site.baseurl}}/announcements"> Announcements</a></p>
-        <p><a href="{{site.baseurl}}/jobs-and-internships"> Jobs and Internships</a></p>
-        <p><a href="{{site.baseurl}}/faculty-search"> Faculty Search</a></p>
-        <p><a href="{{site.baseurl}}/staff-search"> Staff Search</a></p>
-
-
-      </ul>
-    </div>
-
-    <div class="Resources">
-      <ul>
-        <h1> Resources</h1>
-        <p><a href="{{site.baseurl}}/answers-to-faqs"> Answers to FAQS</a></p>
-        <p><a href="{{site.baseurl}}/office-hours"> Office Hours</a></p>
-        <p><a href="https://www.umb.edu/registrar/academic_calendar"> Academic Calendar</a></p>
-        <p><a href="{{site.baseurl}}/cs-department-it-policies-and-procedures"> CS Department IT Policies and Procedures</a></p>
-        <p><a href="https://e5.onthehub.com/WebStore/Security/Signin.aspx?ws=41b75fa9-1473-de11-b7f9-0030487d8896&vsro=8&rurl=%2fWebStore%2fAccount%2fYourAccount.aspx%3fws%3d41b75fa91473-de11-b7f9-0030487d8896%26vsro%3d8&JSEnabled=1"> VMware</a></p>
-        <p><a href="https://e5.onthehub.com/WebStore/Security/Signin.aspx?ws=9bd8fe3d-d29b-e011-969d-0030487d8897&vsro=8&rurl=%2fWebStore%2fProductsByMajorVersionList.aspx%3fws%3d9bd8fe3d-d29b-e011-969d-0030487d8897%26vsro%3d8%26JSEnabled%3d1"> Dreamspark/Microsoft Imagine</a></p>
-        
-      </ul>
-    </div>
-
- 
-
-    
- 
-</div>
-
--->
-  
-    <!-- <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">
-            <p> About</p>
-            </li>
-            {%- if site.email -%}
-            <li>
-              <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a>
-            </li>
-            {%- endif -%}
-        </ul>
+  <div class="footer-blur">
+    <div class="footer-glass">
+      <div class="wrapper">
+        <p>{{ site.phone }}</p>
+        <p>{{ site.email }}</p>
       </div>
-
-      <div class="footer-col footer-col-2">
-        {%- include social.html -%}
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{- site.description | escape -}}</p>
-      </div>
-      </div> -->
     </div>
+    <p>© 2021 {{ site.title }}</p>
   </div>
-  </div>  
-
 
 </footer>
