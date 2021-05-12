@@ -2,10 +2,12 @@
 layout: default
 ---
 
-{%- if page.footer_title -%}
-<h1 class="heads">{{ page.footer_title }}</h1>
-{%- endif -%}
+<div class="wrapper">
+    {%- if page.footer_title -%}
+    <h1 class="heads">{{ page.footer_title }}</h1>
+    {%- endif -%}
 
-<p>Some testing</p>
+    <p>Some testing</p>
 
-{{content}}
+    {{content}}
+</div>

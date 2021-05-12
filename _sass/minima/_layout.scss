@@ -189,7 +189,7 @@
  * Page content
  */
 .page-content {
-  padding: $spacing-unit 0;
+  //padding: $spacing-unit 0;
   flex: 1;
 }
 
@@ -200,6 +200,11 @@
 
 .page-heading {
   @include relative-font-size(2);
+}
+
+.post {
+  display: inline-block;
+  vertical-align:top;
 }
 
 .post-list-heading {
@@ -223,12 +228,6 @@
 .post-link {
   display: block;
   @include relative-font-size(1.5);
-}
-
-.sidebar {
-  display: block;
-  position: absolute;
-  margin-left: -100px;
 }
 
 /**
