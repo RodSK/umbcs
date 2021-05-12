@@ -14,9 +14,12 @@ window.onload = window.onresize = function() {
   slideBackGround = document.getElementsByClassName("home-back-slide")[0];
   var st = slideBox.currentStyle || window.getComputedStyle(slideBox);
   slideBoxWidth = parseInt(st.width.substring(0, (st.width.length - 2)))
-  slideFrame[0].style.width = slideBoxWidth + "px";
+  for(var i=0; i<slideFrame.length; i++){
+    slideFrame[i].style.width = slideBoxWidth + "px";
+  }
+  slideFrames.style.marginLeft = "-" + (count * slideBoxWidth) + "px";
   changeBack();
-
+  clearInterval(slideTimer);
   slideTimer = setInterval(timer, timerSeconds);
 }
 
