@@ -1,6 +1,54 @@
-/**
- * Site footer
- */
+.footer-wrapper {
+  height: 20vh;
+  background-image: url(/umbcs/images/umbimage.png);
+  background-size: cover;
+  background-position: fixed;
+  background-repeat: no-repeat;
+}
+
+.banner {
+  width: 600px;
+  height: 100px;
+  background: inherit;
+  position: relative;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  border-radius: 5px;
+  transform: translate(-50%, -50%);
+}
+
+.banner::before {
+  width: 650px;
+  height: 400px;
+  content: "";
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  bottom: 0;
+  right: 0;
+  background: inherit;
+  box-shadow: inset 0 0 0 500px rgba(255, 255, 255, 0.2);
+  filter: blur(5px);
+}
+
+.img-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 500px;
+}
+
+.img-text h2 {
+  color: #fff;
+  font-family: big john;
+  margin: 15px;
+  font-size: 78px;
+  letter-spacing: 2px;
+}
+/*
 .site-footer {
   border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
@@ -77,3 +125,4 @@
     width: calc(100% - (#{$spacing-unit} / 2));
   }
 }
+*/

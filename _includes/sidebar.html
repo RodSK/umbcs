@@ -1,30 +1,27 @@
-<<<<<<< HEAD
-=======
 <div class="sidebar">
-    <div class="wrap-table">
-        {% include table.html %}
-    </div>
-    <script>
-        window.onload = window.onresize = function() {
-            var s = getWidth("page-content");
-            var wrapperWidth = getWidth("wrapper");
-            setWidthMargin("sidebar", ((s - wrapperWidth) / 2));
-        };
+  <div class="wrap-table">{% include table.html %}</div>
+  <script>
+    window.onload = window.onresize = function () {
+      var s = getWidth("page-content");
+      var wrapperWidth = getWidth("wrapper");
+      setWidthMargin("sidebar", (s - wrapperWidth) / 2);
+    };
 
-        function getWidth(className){
-            var c = document.getElementsByClassName(className)[0];
-            var style = c.currentStyle || window.getComputedStyle(c);
-            var w = style.width;
-            var p = style.paddingLeft;
-            return parseInt(w.substring(0, (w.length - 2))) 
-                + parseInt(p.substring(0, (p.length - 2))) * 2;
-        }
+    function getWidth(className) {
+      var c = document.getElementsByClassName(className)[0];
+      var style = c.currentStyle || window.getComputedStyle(c);
+      var w = style.width;
+      var p = style.paddingLeft;
+      return (
+        parseInt(w.substring(0, w.length - 2)) +
+        parseInt(p.substring(0, p.length - 2)) * 2
+      );
+    }
 
-        function setWidthMargin(className, num){
-            var c = document.getElementsByClassName(className)[0];
-            c.style.width = num + "px";
-            c.style.marginLeft = "-" + (num + 5) + "px";
-        }
-    </script>
+    function setWidthMargin(className, num) {
+      var c = document.getElementsByClassName(className)[0];
+      c.style.width = num + "px";
+      c.style.marginLeft = "-" + (num + 5) + "px";
+    }
+  </script>
 </div>
->>>>>>> c556fa3cfa88bb8d5ab535136665e3ff0708d7bb
