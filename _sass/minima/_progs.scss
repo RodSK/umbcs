@@ -38,6 +38,18 @@
     transition: top 3s;
 }
 
+.progs > div:nth-child(2) div{
+    background-color: rgba($color: #458a00, $alpha: .6);
+}
+
+.progs > div:nth-child(3) div{
+    background-color: rgba($color: #8a0022, $alpha: .6);
+}
+
+.progs > div:nth-child(4) div{
+    background-color: rgba($color: #008a67, $alpha: .6);
+}
+
 .progs div:hover > div{
     top: 0;
 }
@@ -70,7 +82,21 @@
     text-decoration: none;
     font-size: 20px;
     padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
     font-weight: bold;
+}
+
+.progs > div:nth-child(2) div a{
+    background-color: #458a00;
+}
+
+.progs > div:nth-child(3) div a{
+    background-color: #8a0022;
+}
+
+.progs > div:nth-child(4) div a{
+    background-color: #008a67;
 }
 
 .progs div div a:hover {
