@@ -29,9 +29,9 @@
     margin: 0;
     width: 1140px;
     background-color: white;
-    background-position: center left;
+    background-position: center center;
     background-repeat: no-repeat;
-    background-size: 100% auto;
+    background-size: cover;
 }
 
 .slide-box p, .slide-frame a {
@@ -70,4 +70,22 @@
 .slide-button:hover {
     background-color: lighten($color: #005a8c, $amount: 60%);
     color: #005a8c;
+}
+
+@media all and (max-width: 785px) {
+    .slide-box {
+        height: 150px;
+    }
+    .slide-button {
+        width: 50%;
+    }
+
+    .slide-button:nth-child(2) {
+        right: 50%;
+    }
+
+    .slide-frame a {
+        bottom: 50px;
+        height: 100px;
+    }
 }
