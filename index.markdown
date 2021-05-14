@@ -6,6 +6,4 @@ layout: home
 ---
 
 
-![campus](images/testpic.jpg)
-
 
