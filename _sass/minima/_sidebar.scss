@@ -23,11 +23,50 @@
     padding-bottom: 20px;
   }
 
+  .open-menu {
+    display: none;
+  }
+
   
-  @media all and (max-width: 768px) {
+  @media all and (max-width: 1650px) and (min-width: 768px) {
   
     .sidebar {
-        display: none;
+      display: block;
+      position: absolute;
+      top: 102px;
+      left: -600px;
+      width: 600px;
+      margin: 0;
+      z-index: 99;
+      -webkit-transition: left 3s;
+      -moz-transition: left 3s;
+      -o-transition: left 3s;
+      transition: left 3s;
+    }
+
+    .sidebar .wrap-table{
+      margin: 0;
+    }
+
+    .sidebar ul {
+      padding-left: 28px;
+    }
+
+    .open-menu {
+      display: block;
+      position: absolute;
+      margin: 0;
+      top: 100px;
+      right: -46px;
+      color: #F0F0F0;
+      padding-left: 10px;
+      padding-right: 10px;
+      font-size: 18px;
+      background-color: #005a8c;
+      -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
+      transform: rotate(90deg);
     }
   
   }
