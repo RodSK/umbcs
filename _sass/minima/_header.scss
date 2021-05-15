@@ -57,6 +57,8 @@
 
 .header-menu {
   border-bottom: 1px solid rgba($color: #005a8c, $alpha: 0.2);
+  margin-top: 10px;
+  border-bottom: none;
 }
 
 nav {
@@ -140,7 +142,7 @@ nav ul ul li a {
 
 nav ul ul li a:hover {
   padding-left: 10px;
-  padding-right: 10px; 
+  padding-right: 10px;
   margin-left: 10px;
   margin-right: -10px;
 }
