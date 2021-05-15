@@ -19,7 +19,7 @@
   text-align: left;
 }
 
-.wrap-table div:nth-child(3){
+.wrap-table div:nth-child(3) {
   margin-right: 0;
 }
 
@@ -30,7 +30,7 @@
   width: 95%;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #F0F0F0;
+  background-color: #f0f0f0;
   text-align: left;
   border-top: 3px solid #005a8c;
   padding-left: 5%;
@@ -45,11 +45,12 @@
 .wrap-table a {
   color: black;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 .wrap-table a:hover {
-  color: red;
+  color: hsl(240, 70%, 45%);
 }
 
 .slideshow {
@@ -71,7 +72,7 @@
 .wrap-table .post-meta {
   display: block;
   width: max-content;
-  border: 1px solid rgba($color: #005a8c, $alpha: .2);
+  border: 1px solid rgba($color: #005a8c, $alpha: 0.2);
   padding-left: 10px;
   padding-right: 20px;
   border-top-right-radius: 10px;
@@ -81,7 +82,6 @@
 }
 
 @media all and (max-width: 768px) {
-
   .wrap-table {
     display: block;
   }
@@ -91,5 +91,4 @@
     width: 100%;
     margin-bottom: 20px;
   }
-
 }
