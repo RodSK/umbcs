@@ -21,7 +21,7 @@
   padding-top: 10px;
   padding-bottom: 10px;
   width: 100%;
-  background-color: rgba($color: #005a8c, $alpha: 1);
+  background-color: rgba($color: #005a8c, $alpha: 0.8);
 }
 
 .footer-blur {
@@ -34,6 +34,7 @@
 .footer-blur p {
   color: white;
   margin: 0;
+  text-align: center;
 }
 
 .footer-blur > p {
