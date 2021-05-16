@@ -4,7 +4,7 @@ layout: page
 permalink: "/jobs-and-internships"
 ---
 
-<<<<<<< HEAD
+Jobs and Internships
 ## Spring 2021
 
 ---

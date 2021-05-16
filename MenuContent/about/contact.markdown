@@ -4,7 +4,7 @@ layout: page
 permalink: "/contact-us"
 ---
 
-## **{{page.footer_title}}**
+Contact Us
 
 Please refer to an appropriate point of contact from the list below.
 

@@ -4,7 +4,7 @@ layout: page
 permalink: "/department"
 ---
 
-## {{page.footer_title}}
+Department
 
 ---
 

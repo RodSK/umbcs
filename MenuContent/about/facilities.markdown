@@ -4,7 +4,7 @@ layout: page
 permalink: "/facilities"
 ---
 
-# {{page.footer_title}}
+Facilities
 
 The CS department employs a network of 13 Dell PowerEdge R430/R620/R630/640 servers behind a Cisco PIX firewall to support our Computer Science and Information Technology courses. It also utilizes a 12TB Dell Equal Logic PS4100E and a 24TB Dell Equal Logic PS4210E file server for storing student, faculty, staff home and course directories. Students use PCs in the UNIX LAB, WEB LAB, and Information Technology Lab to access the servers for their programming assignments.
 
