@@ -1,10 +1,10 @@
 ---
-footer_title: "CS430"
+title: "CS430"
 layout: page
 permalink: "/academics/courses/CS430"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Database Management Systems (3 credits)**

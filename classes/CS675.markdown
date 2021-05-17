@@ -1,10 +1,10 @@
 ---
-footer_title: "CS675"
+title: "CS675"
 layout: page
 permalink: "/academics/courses/CS675"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Computer Vision (3 credits)**

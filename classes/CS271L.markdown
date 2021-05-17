@@ -1,10 +1,10 @@
 ---
-footer_title: "CS271L"
+title: "CS271L"
 layout: page
 permalink: "/academics/courses/CS271L"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Introduction to Cognitive Science (3 credits)**

@@ -1,10 +1,10 @@
 ---
-footer_title: "CS680"
+title: "CS680"
 layout: page
 permalink: "/academics/courses/CS680"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Object-Oriented Design and Programming (3 credits)**

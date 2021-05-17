@@ -1,10 +1,10 @@
 ---
-footer_title: "CS188SL"
+title: "CS188SL"
 layout: page
 permalink: "/academics/courses/CS188SL"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Science Gateway Seminar II (2 credits)**

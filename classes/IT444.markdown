@@ -1,10 +1,10 @@
 ---
-footer_title: "IT444"
+title: "IT444"
 layout: page
 permalink: "/academics/courses/IT444"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Network Security Administration II (3 credits)**

@@ -1,10 +1,10 @@
 ---
-footer_title: "IT370"
+title: "IT370"
 layout: page
 permalink: "/academics/courses/IT370"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Business Intelligence Applications (3 credits)**

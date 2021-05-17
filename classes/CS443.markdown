@@ -1,10 +1,10 @@
 ---
-footer_title: "CS443"
+title: "CS443"
 layout: page
 permalink: "/academics/courses/CS443"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Mobile Applications (3 credits)**

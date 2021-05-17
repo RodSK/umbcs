@@ -1,10 +1,10 @@
 ---
-footer_title: "CS622"
+title: "CS622"
 layout: page
 permalink: "/academics/courses/CS622"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Theory of Formal Languages (3 credits)**

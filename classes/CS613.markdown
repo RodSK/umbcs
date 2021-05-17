@@ -1,10 +1,10 @@
 ---
-footer_title: "CS613"
+title: "CS613"
 layout: page
 permalink: "/academics/courses/CS613"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Applied Cryptography (3 credits)**

@@ -1,10 +1,10 @@
 ---
-footer_title: "CS460"
+title: "CS460"
 layout: page
 permalink: "/academics/courses/CS460"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Graphics (3 credits)**

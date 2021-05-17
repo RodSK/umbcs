@@ -1,10 +1,10 @@
 ---
-footer_title: "CS682"
+title: "CS682"
 layout: page
 permalink: "/academics/courses/CS682"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Software Development Laboratory I (3 credits)**

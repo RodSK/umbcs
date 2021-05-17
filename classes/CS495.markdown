@@ -1,10 +1,10 @@
 ---
-footer_title: "CS495"
+title: "CS495"
 layout: page
 permalink: "/academics/courses/CS495"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Practicum in Computer Science (1 credits)**

@@ -1,10 +1,10 @@
 ---
-footer_title: "IT441"
+title: "IT441"
 layout: page
 permalink: "/academics/courses/IT441"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Network Services Administration (3 credits)**

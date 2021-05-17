@@ -1,10 +1,10 @@
 ---
-footer_title: "IT478"
+title: "IT478"
 layout: page
 permalink: "/academics/courses/IT478"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Independent Study (3 credits)**

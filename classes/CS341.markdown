@@ -1,10 +1,10 @@
 ---
-footer_title: "CS341"
+title: "CS341"
 layout: page
 permalink: "/academics/courses/CS341"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Computer Architecture and Organization (3 credits)**

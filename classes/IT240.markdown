@@ -1,10 +1,10 @@
 ---
-footer_title: "IT240"
+title: "IT240"
 layout: page
 permalink: "/academics/courses/IT240"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Web Fluency (3 credits)**

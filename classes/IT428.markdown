@@ -1,10 +1,10 @@
 ---
-footer_title: "IT428"
+title: "IT428"
 layout: page
 permalink: "/academics/courses/IT428"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Introduction to Information Security (3 credits)**

@@ -1,10 +1,10 @@
 ---
-footer_title: "IT220"
+title: "IT220"
 layout: page
 permalink: "/academics/courses/IT220"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Computer Forensics I (3 credits)**

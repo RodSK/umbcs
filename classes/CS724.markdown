@@ -1,10 +1,10 @@
 ---
-footer_title: "CS724"
+title: "CS724"
 layout: page
 permalink: "/academics/courses/CS724"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Topics in Algorithm Theory and Design (3 credits)**

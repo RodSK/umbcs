@@ -1,10 +1,10 @@
 ---
-footer_title: "CS461"
+title: "CS461"
 layout: page
 permalink: "/academics/courses/CS461"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Computer Games Programming (3 credits)**

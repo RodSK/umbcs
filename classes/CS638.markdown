@@ -1,10 +1,10 @@
 ---
-footer_title: "CS638"
+title: "CS638"
 layout: page
 permalink: "/academics/courses/CS638"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Applied Machine Learning (3 credits)**

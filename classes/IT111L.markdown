@@ -1,10 +1,10 @@
 ---
-footer_title: "IT111L"
+title: "IT111L"
 layout: page
 permalink: "/academics/courses/IT111L"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Managerial Statistics (3 credits)**

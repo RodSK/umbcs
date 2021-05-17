@@ -1,10 +1,10 @@
 ---
-footer_title: "CS671"
+title: "CS671"
 layout: page
 permalink: "/academics/courses/CS671"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Machine Learning (3 credits)**

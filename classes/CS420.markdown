@@ -1,10 +1,10 @@
 ---
-footer_title: "CS420"
+title: "CS420"
 layout: page
 permalink: "/academics/courses/CS420"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Introduction to the Theory of Computation (3 credits)**

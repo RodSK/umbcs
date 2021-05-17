@@ -1,10 +1,10 @@
 ---
-footer_title: "IT116"
+title: "IT116"
 layout: page
 permalink: "/academics/courses/IT116"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Introduction to Scripting (1 credits)**

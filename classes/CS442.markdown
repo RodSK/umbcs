@@ -1,10 +1,10 @@
 ---
-footer_title: "CS442"
+title: "CS442"
 layout: page
 permalink: "/academics/courses/CS442"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Cybersecurity in the Internet of Things (3 credits)**

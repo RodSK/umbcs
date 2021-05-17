@@ -1,10 +1,10 @@
 ---
-footer_title: "CS720"
+title: "CS720"
 layout: page
 permalink: "/academics/courses/CS720"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Logical Foundations in Computer Science (3 credits)**

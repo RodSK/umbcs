@@ -1,10 +1,10 @@
 ---
-footer_title: "CS411"
+title: "CS411"
 layout: page
 permalink: "/academics/courses/CS411"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Competitive Programming (3 credits)**
