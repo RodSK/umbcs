@@ -180,9 +180,12 @@
 .page-content {
   //padding: $spacing-unit 0;
   flex: 1;
+  background-image: url(/umbcs/images/CS-dog.jpeg);
+  background: fixed;
 }
 
-.contentWrap, .sideBar {
+.contentWrap,
+.sideBar {
   display: inline-block;
 }
 
@@ -192,7 +195,7 @@
 
 .post {
   display: inline-block;
-  vertical-align:top;
+  vertical-align: top;
 }
 
 .post-list-heading {

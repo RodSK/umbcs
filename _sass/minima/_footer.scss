@@ -3,7 +3,7 @@
   padding: 0;
   position: relative;
   width: 100%;
-  background-color: #FAFBFC;
+  background-color: #fafbfc;
   background-image: url("../images/umbimage.png");
   background-position: center left;
   background-size: 100% auto;
@@ -14,7 +14,6 @@
 .site-footer .wrapper {
   display: block;
   position: relative;
-
 }
 
 .footer-glass {
@@ -22,19 +21,20 @@
   padding-top: 10px;
   padding-bottom: 10px;
   width: 100%;
-  background-color: rgba($color: #005a8c, $alpha: 1);
+  background-color: rgba($color: #005a8c, $alpha: 0.8);
 }
 
 .footer-blur {
   display: block;
   height: 100%;
   width: 100%;
-  background-color: rgba($color: #005a8c, $alpha: .6);;
+  background-color: rgba($color: #005a8c, $alpha: 0.6);
 }
 
 .footer-blur p {
   color: white;
   margin: 0;
+  text-align: center;
 }
 
 .footer-blur > p {
@@ -43,5 +43,5 @@
   font-weight: bold;
   padding-top: 15px;
   padding-bottom: 15px;
-  color:rgba($color: white, $alpha: .7)
+  color: rgba($color: white, $alpha: 0.7);
 }
