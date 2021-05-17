@@ -1,8 +1,7 @@
 ---
-footer_title: "Colloquia"
+title: "Colloquia"
 layout: page
 permalink: "/colloquia"
 ---
-## Colloquia
 
 Spring 2021

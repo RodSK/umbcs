@@ -1,5 +1,5 @@
 ---
-footer_title: "Internship"
+title: "Internships"
 layout: page
 permalink: "/news_and_events/jobs_and_internships/397/"
 ---

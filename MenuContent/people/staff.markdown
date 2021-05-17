@@ -1,9 +1,8 @@
 ---
-footer_title: "Staff"
+title: "Staff"
 layout: page
 permalink: "/staff"
 ---
-## Staff
 
 ![Leonard David](/umbcs/images/No_Photo_Available.jpg)
 >Systems/Network Administrator \

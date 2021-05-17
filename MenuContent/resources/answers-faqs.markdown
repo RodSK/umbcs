@@ -1,11 +1,7 @@
 ---
-footer_title: "Answers to FAQS"
+title: "Frequently Asked Questions"
 layout: page
 permalink: "/answers-to-faqs"
----
-
-## Frequently Asked Questions
-
 ---
 
 [FAQ01: How do I get help if my question is not in this list?](#a1) \

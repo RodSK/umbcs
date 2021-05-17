@@ -1,5 +1,5 @@
 ---
-footer_title: "Job Opening"
+title: "Job Opening"
 layout: page
 permalink: "/news_and_events/jobs_and_internships/394/"
 ---

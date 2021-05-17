@@ -1,5 +1,5 @@
 ---
-footer_title: Facilities
+title: Facilities
 layout: page
 permalink: "/facilities"
 ---

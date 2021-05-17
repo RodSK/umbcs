@@ -1,5 +1,5 @@
 ---
-footer_title: "Events Calendar"
+title: "Events Calendar"
 layout: page
 permalink: "/events-calendar"
 ---

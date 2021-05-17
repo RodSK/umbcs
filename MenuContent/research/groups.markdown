@@ -1,5 +1,5 @@
 ---
-footer_title: "Groups"
+title: "Groups"
 layout: page
 permalink: "/groups"
 ---

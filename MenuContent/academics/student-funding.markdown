@@ -1,5 +1,5 @@
 ---
-footer_title: "Student Funding"
+title: "Student Funding"
 layout: page
 permalink: "/student-funding"
 ---

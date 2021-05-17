@@ -1,9 +1,9 @@
 ---
-footer_title: "Faculty"
+title: "Faculty"
 layout: page
 permalink: "/faculty"
 ---
-## Faculty
+
 Ozgun Babur
 
 ![Ozgun Babur](/umbcs/images/ozgun_babur.jpg) 

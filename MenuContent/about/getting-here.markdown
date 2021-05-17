@@ -1,16 +1,9 @@
 ---
-footer_title: "Getting Here"
+title: "How to get to UMass Boston Campus"
 layout: page
 permalink: "/getting-here"
 ---
 
-## How to get to UMass Boston Campus
-
----
-
----
-
-\
 Here you can get information on how to access the UMass Boston campus, whether you are coming by car, bus, bike, or boat.
 
 Once on Campus The Computer Science department can be found in the third floor of the Science Building. Take the elevators in the lobby, and turn left to find our main office, room S-3-132.
