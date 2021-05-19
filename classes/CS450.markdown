@@ -1,10 +1,10 @@
 ---
-footer_title: "CS450"
+title: "CS450"
 layout: page
 permalink: "/academics/courses/CS450"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **The Structure of Higher Level Languages (3 credits)**

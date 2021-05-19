@@ -57,8 +57,7 @@
 
 .header-menu {
   border-bottom: 1px solid rgba($color: #005a8c, $alpha: 0.2);
-  margin-top: 10px;
-  border-bottom: none;
+  margin-top: 0px;
 }
 
 nav {
@@ -93,6 +92,8 @@ nav a {
   padding-left: 0px;
   padding-right: 20px;
   background-color: white;
+  padding-top: 1px;
+  padding-bottom: 3px;
   -webkit-transition: padding 1s;
   -moz-transition: padding 1s;
   -o-transition: padding 1s;

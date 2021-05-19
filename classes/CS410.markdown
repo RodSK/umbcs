@@ -1,10 +1,10 @@
 ---
-footer_title: "CS410"
+title: "CS410"
 layout: page
 permalink: "/academics/courses/CS410"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Introduction to Software Engineering (3 credits)**

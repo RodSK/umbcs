@@ -1,10 +1,10 @@
 ---
-footer_title: "IT456"
+title: "IT456"
 layout: page
 permalink: "/academics/courses/IT456"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Information Storage and Management (3 credits)**

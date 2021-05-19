@@ -1,10 +1,10 @@
 ---
-footer_title: "IT480"
+title: "IT480"
 layout: page
 permalink: "/academics/courses/IT480"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Special Topics (3 credits)**

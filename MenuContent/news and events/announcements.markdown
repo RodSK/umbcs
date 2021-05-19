@@ -1,7 +1,7 @@
 ---
-footer_title: "Announcements"
+title: "Announcements"
 layout: page
 permalink: "/announcements"
 ---
-## Announcements
+
 

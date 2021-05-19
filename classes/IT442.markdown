@@ -1,10 +1,10 @@
 ---
-footer_title: "IT442"
+title: "IT442"
 layout: page
 permalink: "/academics/courses/IT442"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Windows System Administration (3 credits)**

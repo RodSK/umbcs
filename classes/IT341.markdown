@@ -1,10 +1,10 @@
 ---
-footer_title: "IT341"
+title: "IT341"
 layout: page
 permalink: "/academics/courses/IT341"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Introduction to System Administration (3 credits)**

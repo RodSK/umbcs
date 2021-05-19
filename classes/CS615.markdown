@@ -1,10 +1,10 @@
 ---
-footer_title: "CS615"
+title: "CS615"
 layout: page
 permalink: "/academics/courses/CS615"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **User Interface Design (3 credits)**

@@ -1,10 +1,10 @@
 ---
-footer_title: "IT210L"
+title: "IT210L"
 layout: page
 permalink: "/academics/courses/IT210L"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Intermediate Computing with Data Structures (4 credits)**

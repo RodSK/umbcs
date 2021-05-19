@@ -1,16 +1,9 @@
 ---
-footer_title: "Computer Science Minor"
+title: "Computer Science Minor"
 layout: page
 permalink: "/cs-minor"
 ---
 
-## {{page.footer_title}}
-
----
-
----
-
-\
 The CS minor program provides an education in the core courses of Computer Science. It adds to the attractiveness of other majors by improving a graduate’s job opportunities post-graduation in an increasingly high tech society.
 
 **Minor in Computer Science requirements:**

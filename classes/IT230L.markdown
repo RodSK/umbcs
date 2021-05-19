@@ -1,10 +1,10 @@
 ---
-footer_title: "IT230L"
+title: "IT230L"
 layout: page
 permalink: "/academics/courses/IT230L"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Relational Databases (3 credits)**

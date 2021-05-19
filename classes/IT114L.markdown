@@ -1,10 +1,10 @@
 ---
-footer_title: "IT114L"
+title: "IT114L"
 layout: page
 permalink: "/academics/courses/IT114L"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Introduction to Java Part I (3 credits)**

@@ -1,10 +1,10 @@
 ---
-footer_title: "CS310"
+title: "CS310"
 layout: page
 permalink: "/academics/courses/CS310"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Advanced Data Structures and Algorithms (3 credits)**

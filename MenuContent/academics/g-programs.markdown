@@ -1,16 +1,9 @@
 ---
-footer_title: "Graduate Programs"
+title: "Graduate Programs"
 layout: page
 permalink: "/graduate-programs"
 ---
 
-## {{page.footer_title}}
-
----
-
----
-
-\
 The department of Computer Science at UMass Boston offers programs in graduate studies leading to the degrees of Master of Science (MS) and Doctor of Philosophy (PhD). In addition to these programs, our department also offers a Graduate Certificate in Database Technology.
 
 All graduate courses are scheduled in the late afternoon and evening. The programs are open to full-time and part-time students as well as those who want to strengthen specific skills by taking single courses.

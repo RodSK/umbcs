@@ -2,6 +2,8 @@ var slideBoxWidth;
 var slideBackGround;
 var slideFrames;
 var slideFrame;
+var buttonLeft;
+var buttonRight;
 var count = 0;
 var slideTimer;
 var dr;
@@ -11,6 +13,8 @@ window.onload = window.onresize = function() {
   var slideBox = document.getElementsByClassName("slide-box")[0];
   slideFrames = document.getElementsByClassName("slide-frames")[0];
   slideFrame = document.getElementsByClassName("slide-frame");
+  buttonLeft = document.getElementsByClassName("slide-button")[0];
+  buttonRight = document.getElementsByClassName("slide-button")[1];
   slideBackGround = document.getElementsByClassName("home-back-slide")[0];
   var st = slideBox.currentStyle || window.getComputedStyle(slideBox);
   slideBoxWidth = parseInt(st.width.substring(0, (st.width.length - 2)))
@@ -19,6 +23,7 @@ window.onload = window.onresize = function() {
   }
   slideFrames.style.marginLeft = "-" + (count * slideBoxWidth) + "px";
   changeBack();
+  lockButton();
   clearInterval(slideTimer);
   slideTimer = setInterval(timer, timerSeconds);
 }
@@ -37,9 +42,24 @@ function next(i, resetTimer){
       changeBack();
     }
   }
+  lockButton();
   if(resetTimer){
     clearInterval(slideTimer);
     slideTimer = setInterval(timer, timerSeconds);
+  }
+}
+
+function lockButton(){
+  if (count == 0){
+    buttonLeft.style.color = "rgba(255,255,255, 0.3)";
+  }else{
+    buttonLeft.style.color = "white";
+  }
+
+  if (count == (slideFrame.length - 1)){
+    buttonRight.style.color = "rgba(255,255,255, 0.3)";
+  }else{
+    buttonRight.style.color = "white";
   }
 }
 

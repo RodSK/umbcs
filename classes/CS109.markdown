@@ -1,10 +1,10 @@
 ---
-footer_title: "CS109"
+title: "CS109"
 layout: page
 permalink: "/academics/courses/CS109"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Computer Programming for Engineering (3 credits)**

@@ -1,10 +1,10 @@
 ---
-footer_title: "CS681"
+title: "CS681"
 layout: page
 permalink: "/academics/courses/CS681"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Object-Oriented Software Development (3 credits)**

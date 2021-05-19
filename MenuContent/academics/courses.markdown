@@ -1,11 +1,7 @@
 ---
-footer_title: "Courses"
+title: "Courses"
 layout: page
 permalink: "/courses"
----
-
-## {{page.footer_title}}
-
 ---
 
 <br>

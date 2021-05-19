@@ -1,10 +1,10 @@
 ---
-footer_title: "CS651"
+title: "CS651"
 layout: page
 permalink: "/academics/courses/CS651"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Compilers (3 credits)**

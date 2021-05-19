@@ -1,10 +1,10 @@
 ---
-footer_title: "IT425L"
+title: "IT425L"
 layout: page
 permalink: "/academics/courses/IT425L"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Project Management (3 credits)**

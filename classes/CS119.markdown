@@ -1,10 +1,10 @@
 ---
-footer_title: "CS119"
+title: "CS119"
 layout: page
 permalink: "/academics/courses/CS119"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Computer Language Supplement (2 credits)**

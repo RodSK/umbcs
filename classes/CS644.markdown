@@ -1,10 +1,10 @@
 ---
-footer_title: "CS644"
+title: "CS644"
 layout: page
 permalink: "/academics/courses/CS644"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Operating Systems (3 credits)**

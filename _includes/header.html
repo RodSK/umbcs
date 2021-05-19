@@ -34,9 +34,17 @@
             <ul>
               {% for submenui in menui.submenu %}
               <li>
-                <a href="{{ site.baseurl }}/{{ submenui.link }}"
-                  >{{ submenui.title }}</a
-                >
+                <a href="
+                  {% if submenui.url  %}
+                    {{ submenui.url }}
+                  {% else %}
+                    {{ site.baseurl }}/{{ submenui.link }}
+                  {% endif %}
+                "
+                  {% if submenui.target  %}
+                    target="{{ submenui.target }}"
+                  {% endif %}
+                >{{ submenui.title }}</a>
               </li>
               {% endfor %}
             </ul>

@@ -1,10 +1,10 @@
 ---
-footer_title: "IT460"
+title: "IT460"
 layout: page
 permalink: "/academics/courses/IT460"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Integration Methodologies and Tools (3 credits)**

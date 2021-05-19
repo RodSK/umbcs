@@ -1,10 +1,10 @@
 ---
-footer_title: "CS240"
+title: "CS240"
 layout: page
 permalink: "/academics/courses/CS240"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Programming in C (3 credits)**

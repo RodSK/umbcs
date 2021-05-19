@@ -1,5 +1,5 @@
 ---
-footer_title: "Academic Calendar"
+title: "Academic Calendar"
 layout: page
 permalink: "/academic-calendar"
 ---

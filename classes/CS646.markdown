@@ -1,10 +1,10 @@
 ---
-footer_title: "CS646"
+title: "CS646"
 layout: page
 permalink: "/academics/courses/CS646"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Computer Communication Networks (3 credits)**

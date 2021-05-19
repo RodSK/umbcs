@@ -1,10 +1,10 @@
 ---
-footer_title: "CS285L"
+title: "CS285L"
 layout: page
 permalink: "/academics/courses/CS285L"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Social Issues and Ethics in Computing (3 credits)**

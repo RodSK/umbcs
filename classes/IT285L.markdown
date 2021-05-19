@@ -1,10 +1,10 @@
 ---
-footer_title: "IT285L"
+title: "IT285L"
 layout: page
 permalink: "/academics/courses/IT285L"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Introduction to Networks (3 credits)**

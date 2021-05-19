@@ -1,10 +1,10 @@
 ---
-footer_title: "IT461L"
+title: "IT461L"
 layout: page
 permalink: "/academics/courses/IT461L"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **System Analysis and Design (3 credits)**

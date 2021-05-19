@@ -1,10 +1,8 @@
 ---
-footer_title: "Funding"
+title: "Funding"
 layout: page
 permalink: "/funding"
 ---
-
-## Funding
 
 PIs and Co-PIs only include members of the UMass Boston Computer Science department.
 

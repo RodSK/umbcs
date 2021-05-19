@@ -1,16 +1,9 @@
 ---
-footer_title: "Admissions"
+title: "Admissions"
 layout: page
 permalink: "/admissions"
 ---
 
-## {{page.footer_title}}
-
----
-
----
-
-\
 **Interested in getting a Computer Science or Information Technology major? Below, you can find information regarding the admission process, tuition, and much more for our undergraduate and graduate programs.**
 
 ---

@@ -1,10 +1,10 @@
 ---
-footer_title: "CS620"
+title: "CS620"
 layout: page
 permalink: "/academics/courses/CS620"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Theory of Computation (3 credits)**

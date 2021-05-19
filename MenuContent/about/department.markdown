@@ -1,10 +1,8 @@
 ---
-footer_title: Department
+title: Department
 layout: page
 permalink: "/department"
 ---
-
-## {{page.footer_title}}
 
 ---
 

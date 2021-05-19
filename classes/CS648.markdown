@@ -1,10 +1,10 @@
 ---
-footer_title: "CS648"
+title: "CS648"
 layout: page
 permalink: "/academics/courses/CS648"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Wireless Networks and Mobile Computing (3 credits)**

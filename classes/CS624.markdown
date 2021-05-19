@@ -1,10 +1,10 @@
 ---
-footer_title: "CS624"
+title: "CS624"
 layout: page
 permalink: "/academics/courses/CS624"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Analysis of Algorithms (3 credits)**

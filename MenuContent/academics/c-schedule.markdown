@@ -1,11 +1,7 @@
 ---
-footer_title: "Course Schedule"
+title: "Course Schedule"
 layout: page
 permalink: "/course-schedule"
----
-
-## {{page.footer_title}}
-
 ---
 
 \

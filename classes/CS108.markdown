@@ -1,10 +1,10 @@
 ---
-footer_title: "CS108"
+title: "CS108"
 layout: page
 permalink: "/academics/courses/CS108"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **An Introduction to Python (3 credits)**

@@ -1,16 +1,9 @@
 ---
-footer_title: "Undergraduate Programs"
+title: "Undergraduate Programs"
 layout: page
 permalink: "/undergraduate-programs"
 ---
 
-## {{page.footer_title}}
-
----
-
----
-
-\
 The department offers a BS and BA in [Computer Science](http://www.cs.umb.edu/sp/academics/undergraduate_programs/) and a BS in [Information Technology](http://www.cs.umb.edu/sp/academics/undergraduate_programs/#IT). Our BS program in Computer Science is accredited by the Computing Accreditation Commission of [ABET](http://www.abet.org/). ABET assures quality for degree programs in applied science, computing, engineering, and technology. The BS program provides a rigorous education in theory and practice of Computer Science in addition to outside science courses. Our BA program provides a similar education in the theory and practice of Computer Science with more of an emphasis on outside humanities. Either degree can be used as a basis for many jobs in industry or for graduate work in Computer Science and other fields. We have an Honors Program for students who complete an Honors Thesis.
 
 We offer the Undergraduate Certificate in Computer Science for non-degree seeking students, and for matriculated students who are majoring in other fields. We also provide a [CS105]({{site.baseurl}}/CS105) course introducing computer literacy for non-majors.

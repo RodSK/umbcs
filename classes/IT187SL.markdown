@@ -1,10 +1,10 @@
 ---
-footer_title: "IT187SL"
+title: "IT187SL"
 layout: page
 permalink: "/academics/courses/IT187SL"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Science Gateway Seminar I (2 credits)**

@@ -1,10 +1,10 @@
 ---
-footer_title: "CS470"
+title: "CS470"
 layout: page
 permalink: "/academics/courses/CS470"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Introduction to Artificial Intelligence (3 credits)**

@@ -1,10 +1,9 @@
 ---
-footer_title: "Jobs and Interships"
+title: "Jobs and Interships"
 layout: page
 permalink: "/jobs-and-internships"
 ---
 
-<<<<<<< HEAD
 ## Spring 2021
 
 ---

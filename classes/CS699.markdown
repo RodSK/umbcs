@@ -1,10 +1,10 @@
 ---
-footer_title: "CS699"
+title: "CS699"
 layout: page
 permalink: "/academics/courses/CS699"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Research for MS Thesis (3 credits)**

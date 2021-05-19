@@ -1,10 +1,10 @@
 ---
-footer_title: "IT485"
+title: "IT485"
 layout: page
 permalink: "/academics/courses/IT485"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Information Technology Capstone (3 credits)**

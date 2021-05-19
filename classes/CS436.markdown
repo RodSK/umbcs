@@ -1,10 +1,10 @@
 ---
-footer_title: "CS436"
+title: "CS436"
 layout: page
 permalink: "/academics/courses/CS436"
 ---
 
-## {{page.footer_title}}
+
 
 \
 **Database Application Development (3 credits)**
