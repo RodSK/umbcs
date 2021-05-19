@@ -32,11 +32,11 @@
   width: 100%;
   top: 150px;
   left: 0;
-  background-color: rgba($color: #005a8c, $alpha: 0.6);
-  -webkit-transition: top 3s;
-  -moz-transition: top 3s;
-  -o-transition: top 3s;
-  transition: top 3s;
+  background-color: rgba($color: $umass-blue, $alpha: 0.6);
+  -webkit-transition: top .5s linear;
+  -moz-transition: top .5s linear;
+  -o-transition: top .5s linear;
+  transition: top .5s linear;
 }
 
 .progs > div:nth-child(2) div {
@@ -78,8 +78,8 @@
   position: absolute;
   right: 0;
   bottom: 0;
-  background-color: #005a8c;
-  color: #f0f0f0;
+  background-color: $umass-blue;
+  color: $umass-grey;
   text-decoration: none;
   font-size: 20px;
   padding: 5px;
@@ -101,8 +101,8 @@
 }
 
 .progs div div a:hover {
-  background-color: #f0f0f0;
-  color: #005a8c;
+  background-color: $umass-grey;
+  color: $umass-blue;
 }
 
 .progs > div:first-child {

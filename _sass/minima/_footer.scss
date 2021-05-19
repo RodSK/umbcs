@@ -21,14 +21,14 @@
   padding-top: 10px;
   padding-bottom: 10px;
   width: 100%;
-  background-color: rgba($color: #005a8c, $alpha: 0.8);
+  background-color: rgba($color: $umass-blue, $alpha: 0.8);
 }
 
 .footer-blur {
   display: block;
   height: 100%;
   width: 100%;
-  background-color: rgba($color: #005a8c, $alpha: 0.6);
+  background-color: rgba($color: $umass-blue, $alpha: 0.6);
 }
 
 .footer-blur p {
