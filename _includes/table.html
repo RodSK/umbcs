@@ -1,25 +1,39 @@
 <div>
     <p>Research</p>
+    <p class="open-menu research" onclick="openMenu(0)">research</p>
     <ul>
-      {% for post in site.categories.research %} {% if post.url %}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b
-        %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%}
-      </li>
-      {% endif %} {% endfor %}
+      {% for post in site.categories.research %}
+      {% if forloop.index == layout.table-count %}
+        <li class="table-more">
+          <a href="#">See More</a>
+        </li>
+        {% break %}
+      {% endif %}  
+          <li>
+            {%- assign date_format = site.minima.date_format | default: "%b
+            %-d, %Y" -%}
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+            <h3>
+              <a class="post-link" href="{{ post.url | relative_url }}">
+                {{ post.title | escape }}
+              </a>
+            </h3>
+            {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%}
+          </li>
+      {% endfor %}
     </ul>
 </div>
 <div>
     <p>News</p>
+    <p class="open-menu news" onclick="openMenu(1)">news</p>
     <ul>
-      {% for post in site.categories.news %} {% if post.url %}
+      {% for post in site.categories.news %}
+      {% if forloop.index == layout.table-count %}
+        <li class="table-more">
+          <a href="#">See More</a>
+        </li>
+        {% break %}
+      {% endif %}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b
         %-d, %Y" -%}
@@ -31,14 +45,21 @@
         </h3>
         {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%}
       </li>
-      {% endif %} {% endfor %}
+      {% endfor %}
     </ul>
 </div>
 
 <div>
     <p>Events</p>
+    <p class="open-menu events" onclick="openMenu(2)">events</p>
     <ul>
-      {% for post in site.categories.events %} {% if post.url %}
+      {% for post in site.categories.events %}
+      {% if forloop.index == layout.table-count %}
+        <li class="table-more">
+          <a href="#">See More</a>
+        </li>
+        {% break %}
+      {% endif %}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b
         %-d, %Y" -%}
@@ -50,6 +71,6 @@
         </h3>
         {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%}
       </li>
-      {% endif %} {% endfor %}
+      {% endfor %}
     </ul>
 </div>

@@ -15,10 +15,10 @@
     width: max-content;
     margin-left: 0;
     font-size: 0;
-    -webkit-transition: margin 5s;
-    -moz-transition: margin 5s;
-    -o-transition: margin 5s;
-    transition: margin 5s;
+    -webkit-transition: margin 4s;
+    -moz-transition: margin 4s;
+    -o-transition: margin 4s;
+    transition: margin 4s;
 }
 
 .slide-frame {
@@ -47,7 +47,7 @@
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: rgba($color: #005a8c, $alpha: .5);
+    background-color: rgba($color: $umass-blue, $alpha: .5);
     color: white;
     font-size: 20px;
     padding-left: 20px;
@@ -58,7 +58,7 @@
     bottom: 0;
     right: 0;
     width: 10%;
-    background-color: #005a8c;
+    background-color: $umass-blue;
     color: white;
     text-align: center;
 }
@@ -68,8 +68,8 @@
 }
 
 .slide-button:hover {
-    background-color: lighten($color: #005a8c, $amount: 60%);
-    color: #005a8c;
+    background-color: lighten($color: $umass-blue, $amount: 60%);
+    color: $umass-blue;
 }
 
 @media all and (max-width: 785px) {

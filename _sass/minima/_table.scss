@@ -23,16 +23,16 @@
   margin-right: 0;
 }
 
-.wrap-table p {
+.wrap-table div p:first-child {
   margin: 0;
   display: block;
-  color: #005a8c;
+  color: $umass-blue;
   width: 95%;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: #f0f0f0;
+  background-color: $umass-grey;
   text-align: left;
-  border-top: 3px solid #005a8c;
+  border-top: 3px solid $umass-blue;
   padding-left: 5%;
   font-size: 18px;
   font-weight: bold;
@@ -51,6 +51,25 @@
 
 .wrap-table a:hover {
   color: hsl(240, 70%, 45%);
+}
+
+.table-more a {
+  display: block;
+  border-top: 1px solid rgba($color: $umass-blue, $alpha: 0.1);
+  border-bottom: 1px solid rgba($color: $umass-blue, $alpha: 0.1);
+  padding-top: 2px;
+  padding-bottom: 2px;
+  color: rgba($color: $umass-blue, $alpha: 0.6);
+  font-family: $base-font-family;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.table-more a:hover {
+  border-top: 1px solid rgba($color: $umass-blue, $alpha: 0);
+  border-bottom: 1px solid rgba($color: $umass-blue, $alpha: 0);
+  background-color: rgba($color: $umass-blue, $alpha: 0.2);
+  color: $umass-blue;
 }
 
 .slideshow {
@@ -72,16 +91,17 @@
 .wrap-table .post-meta {
   display: block;
   width: max-content;
-  border: 1px solid rgba($color: #005a8c, $alpha: 0.2);
+  border: 1px solid rgba($color: $umass-blue, $alpha: 0.2);
   padding-left: 10px;
   padding-right: 20px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  color: #005a8c;
+  color: $umass-blue;
   margin-top: 20px;
 }
 
 @media all and (max-width: 768px) {
+
   .wrap-table {
     display: block;
   }

@@ -8,7 +8,7 @@
   .sidebar .wrap-table {
       display: block;
       margin-right: 20px;
-      background-color: white;
+      background-color: rgba($color: white, $alpha: 0.5);
   }
   
   .sidebar .wrap-table div {
@@ -33,40 +33,84 @@
     .sidebar {
       display: block;
       position: absolute;
-      top: 102px;
+      height: auto;
+      width: 100%;
+      background-color: white;
+      top: 118px;
       left: -600px;
       width: 600px;
       margin: 0;
-      z-index: 99;
-      -webkit-transition: left 3s;
-      -moz-transition: left 3s;
-      -o-transition: left 3s;
-      transition: left 3s;
+      -webkit-transition: left 1s;
+      -moz-transition: left 1s;
+      -o-transition: left 1s;
+      transition: left 1s;
     }
 
     .sidebar .wrap-table{
+      display: block;
+      position: relative;
+      height: max-content;
+      width: 100%;   
       margin: 0;
     }
 
+    .sidebar .wrap-table div {
+      display: block;
+      background-color: white;
+      position: absolute;
+      top: 0;
+      left: 0px;
+      height: max-content;
+      width: 100%; 
+      z-index: 99;
+      -webkit-transition: left 1s;
+      -moz-transition: left 1s;
+      -o-transition: left 1s;
+      transition: left 1s;
+    }
+
+    .sidebar .wrap-table div:nth-child(2) {
+      top: 95px;
+    }
+
+    .sidebar .wrap-table div:nth-child(3) {
+      top: 162px;
+    }
+
+
     .sidebar ul {
       padding-left: 28px;
+      padding-right: 28px;
     }
 
     .open-menu {
       display: block;
       position: absolute;
       margin: 0;
-      top: 100px;
-      right: -46px;
-      color: #F0F0F0;
+      color: $umass-grey;
       padding-left: 10px;
       padding-right: 10px;
       font-size: 18px;
-      background-color: #005a8c;
+      background-color: $umass-blue;
       -webkit-transform: rotate(90deg);
       -moz-transform: rotate(90deg);
       -o-transform: rotate(90deg);
       transform: rotate(90deg);
+    }
+
+    .open-menu.research {
+      top: 80px;
+      right: -56px;
+    }
+
+    .open-menu.news {
+      top: 66px;
+      right: -42px;
+    }
+
+    .open-menu.events {
+      top: 72px;
+      right: -48px;   
     }
   
   }

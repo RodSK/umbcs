@@ -19,10 +19,7 @@ function getWidth(className){
 
 function setHeightSidebar(){
     var c = document.getElementsByClassName("sidebar")[0];
-    var st = c.currentStyle || window.getComputedStyle(c);
-    var h = st.height;
-    //parseInt(h.substring(0, (w.length - 2)));
-    c.parentElement.style.minHeight = h;
+    c.parentElement.style.minHeight = "520px";
 }
 
 function setWidthMargin(className, num){
@@ -31,13 +28,16 @@ function setWidthMargin(className, num){
     c.style.marginLeft = "-" + (num + 5) + "px";
 }
 
-function openMenu(){
-    var c = document.getElementsByClassName("sidebar")[0];
+function openMenu(num){
+    var s = document.getElementsByClassName("sidebar")[0];
+    var c = document.getElementsByClassName("wrap-table")[0].children[num];
     var st = c.currentStyle || window.getComputedStyle(c);
     var l = st.left;
     if(l == "0px"){
-        c.style.left = "-600px"
+        s.style.left = "-630px";
+        c.style.left = "630px";
     }else{
-        c.style.left = 0;
+        c.style.left = "0px";
+        s.style.left = "-600px";
     }
 }
