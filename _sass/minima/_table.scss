@@ -1,3 +1,16 @@
+.research-icon {
+  height: 50px;
+  width: 50px;
+}
+.news-icon {
+  height: 50px;
+  width: 50px;
+}
+.events-icon {
+  height: 50px;
+  width: 50px;
+}
+
 .wrap-table {
   display: flex;
   margin-top: 30px;
@@ -101,7 +114,6 @@
 }
 
 @media all and (max-width: 768px) {
-
   .wrap-table {
     display: block;
   }

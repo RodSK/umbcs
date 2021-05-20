@@ -1,76 +1,91 @@
 <div>
+  <div class="inline-research">
     <p>Research</p>
-    <p class="open-menu research" onclick="openMenu(0)">research</p>
-    <ul>
-      {% for post in site.categories.research %}
-      {% if forloop.index == layout.table-count %}
-        <li class="table-more">
-          <a href="#">See More</a>
-        </li>
-        {% break %}
-      {% endif %}  
-          <li>
-            {%- assign date_format = site.minima.date_format | default: "%b
-            %-d, %Y" -%}
-            <span class="post-meta">{{ post.date | date: date_format }}</span>
-            <h3>
-              <a class="post-link" href="{{ post.url | relative_url }}">
-                {{ post.title | escape }}
-              </a>
-            </h3>
-            {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%}
-          </li>
-      {% endfor %}
-    </ul>
+    <img
+      class="research-icon"
+      src="/umbcs/images/icons/research-icon.png"
+      alt="research icon"
+    />
+  </div>
+
+  <p class="open-menu research" onclick="openMenu(0)">research</p>
+  <ul>
+    {% for post in site.categories.research %} {% if forloop.index ==
+    layout.table-count %}
+    <li class="table-more">
+      <a href="#">See More</a>
+    </li>
+    {% break %} {% endif %}
+    <li>
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"
+      -%}
+      <span class="post-meta">{{ post.date | date: date_format }}</span>
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </h3>
+      {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%}
+    </li>
+    {% endfor %}
+  </ul>
 </div>
 <div>
-    <p>News</p>
-    <p class="open-menu news" onclick="openMenu(1)">news</p>
-    <ul>
-      {% for post in site.categories.news %}
-      {% if forloop.index == layout.table-count %}
-        <li class="table-more">
-          <a href="#">See More</a>
-        </li>
-        {% break %}
-      {% endif %}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b
-        %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%}
-      </li>
-      {% endfor %}
-    </ul>
+  <p>News</p>
+  <img
+    class="news-icon"
+    src="/umbcs/images/icons/news-icon.png"
+    alt="News icon"
+  />
+  <p class="open-menu news" onclick="openMenu(1)">news</p>
+  <ul>
+    {% for post in site.categories.news %} {% if forloop.index ==
+    layout.table-count %}
+    <li class="table-more">
+      <a href="#">See More</a>
+    </li>
+    {% break %} {% endif %}
+    <li>
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"
+      -%}
+      <span class="post-meta">{{ post.date | date: date_format }}</span>
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </h3>
+      {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%}
+    </li>
+    {% endfor %}
+  </ul>
 </div>
 
 <div>
-    <p>Events</p>
-    <p class="open-menu events" onclick="openMenu(2)">events</p>
-    <ul>
-      {% for post in site.categories.events %}
-      {% if forloop.index == layout.table-count %}
-        <li class="table-more">
-          <a href="#">See More</a>
-        </li>
-        {% break %}
-      {% endif %}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b
-        %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%}
-      </li>
-      {% endfor %}
-    </ul>
+  <p>Events</p>
+  <img
+    class="events-icon"
+    src="/umbcs/images/icons/events-icon.png"
+    alt="Events icon"
+  />
+  <p class="open-menu events" onclick="openMenu(2)">events</p>
+  <ul>
+    {% for post in site.categories.events %} {% if forloop.index ==
+    layout.table-count %}
+    <li class="table-more">
+      <a href="#">See More</a>
+    </li>
+    {% break %} {% endif %}
+    <li>
+      {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y"
+      -%}
+      <span class="post-meta">{{ post.date | date: date_format }}</span>
+      <h3>
+        <a class="post-link" href="{{ post.url | relative_url }}">
+          {{ post.title | escape }}
+        </a>
+      </h3>
+      {%- if site.show_excerpts -%} {{ post.excerpt }} {%- endif -%}
+    </li>
+    {% endfor %}
+  </ul>
 </div>
