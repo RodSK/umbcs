@@ -5,8 +5,13 @@ date: 2021-04-02 15:49:47 -0400
 category: events
 ---
 
-This is a testing page..
+<!-- HTML FORMAT -->
+<p> This is a test. </p>
 
-This is **testing**
+<a href = "https://example.com"> Email me </a>
 
-[Email me](https://gmail.com)
+<!-- MARKDOWN FORMAT -->
+
+This is a test.
+
+[Email me](https://example.com)

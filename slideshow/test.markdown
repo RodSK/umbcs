@@ -1,6 +1,6 @@
 ---
 layout: slideshow
-title: Test 1 | Slide
+title: This is the title message for the slide
 img: test1.jpg
 ---
 

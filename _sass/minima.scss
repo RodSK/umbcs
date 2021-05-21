@@ -13,7 +13,7 @@ $base-line-height: 1.5 !default;
 $spacing-unit: 30px !default;
 
 $text-color: #111 !default;
-$background-color: #FAFBFC !default;
+$background-color: #fafbfc !default;
 $brand-color: #2a7ae2 !default;
 $umass-blue: #005a8c !default;
 $umass-grey: #f0f0f0 !default;
@@ -49,4 +49,5 @@ $on-laptop: 800px !default;
 
 // Import partials.
 @import "minima/base", "minima/layout", "minima/syntax-highlighting",
-  "minima/header", "minima/table", "minima/footer", "minima/sidebar", "minima/home", "minima/slideshow", "minima/progs";
+  "minima/header", "minima/table", "minima/footer", "minima/sidebar",
+  "minima/home", "minima/slideshow", "minima/progs";
