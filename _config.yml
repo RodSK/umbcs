@@ -32,8 +32,6 @@ pathToCourses: "/umbcs/academics/courses"
 
 baseurl: "/umbcs" # the subpath of your site, e.g. /blog
 url: "https://rodsk.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username: jekyll
 
 facebook_url: https://www.facebook.com/umassboston
 twitter_url: https://twitter.com/umassboston
