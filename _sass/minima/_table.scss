@@ -113,6 +113,22 @@
   margin-top: 20px;
 }
 
+.inline-research, .inline-news, .inline-events {
+  background-image: url("../images/icons/research-icon.png");
+  background-position: 90% 50% ;
+  background-repeat: no-repeat;
+  background-size: auto 50%;
+  padding-left: 50px;
+}
+
+.inline-events {
+  background-image: url("../images/icons/events-icon.png");
+}
+
+.inline-news {
+  background-image: url("../images/icons/news-icon.png");
+}
+
 @media all and (max-width: 768px) {
   .wrap-table {
     display: block;

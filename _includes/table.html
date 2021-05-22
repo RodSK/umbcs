@@ -1,11 +1,6 @@
 <div>
-  <div class="inline-research">
-    <p>Research</p>
-    <img
-      class="research-icon"
-      src="/umbcs/images/icons/research-icon.png"
-      alt="research icon"
-    />
+  <div >
+    <p class="inline-research">Research</p>
   </div>
 
   <p class="open-menu research" onclick="openMenu(0)">research</p>
@@ -31,12 +26,7 @@
   </ul>
 </div>
 <div>
-  <p>News</p>
-  <img
-    class="news-icon"
-    src="/umbcs/images/icons/news-icon.png"
-    alt="News icon"
-  />
+  <p class="inline-news">News</p>
   <p class="open-menu news" onclick="openMenu(1)">news</p>
   <ul>
     {% for post in site.categories.news %} {% if forloop.index ==
@@ -61,12 +51,7 @@
 </div>
 
 <div>
-  <p>Events</p>
-  <img
-    class="events-icon"
-    src="/umbcs/images/icons/events-icon.png"
-    alt="Events icon"
-  />
+  <p class="inline-events">Events</p>
   <p class="open-menu events" onclick="openMenu(2)">events</p>
   <ul>
     {% for post in site.categories.events %} {% if forloop.index ==
